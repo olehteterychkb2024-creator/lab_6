@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif; /* Звичайний шрифт без засічок */
+    background-color: #f0f2f5;    /* Світло-сірий фон */
+    color: #333;                  /* Темно-сірий колір тексту */
+    padding: 20px;
+}
+
+
+table {
+    background-color: white;
+    border-radius: 10px;          /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* М'яка тінь */
+}
+
+
+h1 {
+    color: #1a73e8;               /* Синій колір для імені */
+}
+
+h3 {
+    border-bottom: 2px solid #1a73e8; /* Лінія під назвами розділів */
+    padding-bottom: 5px;
+}
+
+
+a {
+    color: #1a73e8;
+    text-decoration: none;        /* Прибираємо підкреслення */
+}
+
+a:hover {
+    text-decoration: underline;   /* Підкреслення з'являється при наведенні */
+    color: #0d47a1;
+}
+
+
+section {
+    margin-bottom: 20px;          /* Зовнішній відступ знизу */
+    padding: 10px;                /* Внутрішній відступ */
+}
+
+
+button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #0d47a1;    /* Колір змінюється при натисканні */
+}
+
+/* dark theme */
+body.dark-theme {
+    background-color: #1a1a1a !important;
+    color: #f4f4f4 !important;
+}
+
+body.dark-theme table {
+    background-color: #2d2d2d !important;
+    color: #f4f4f4 !important;
+    border-color: #444 !important;
+}
+
+body.dark-theme a {
+    color: #3498db !important;
+}
